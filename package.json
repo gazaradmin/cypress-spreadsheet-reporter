@@ -1,0 +1,38 @@
+{
+	"name": "cypress-spreadsheet-reporter",
+	"version": "1.0.0",
+	"description": "Spreadsheet reporter for Cypress",
+	"main": "./dist/index.js",
+	"scripts": {
+		"prebuild": "npx prettier --write src/ cypress/",
+		"build": "tsc -d",
+		"open": "cypress open",
+		"test": "cypress run"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"googleapis": "^129.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.5.6",
+		"cypress": "^13.6.2",
+		"google-auth-library": "^9.4.1",
+		"typescript": "^5.2.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gazaradmin/cypress-spreadsheet-reporter.git"
+	},
+	"author": "Bayanbaatar Davaadorj",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gazaradmin/cypress-spreadsheet-reporter/issues"
+	},
+	"homepage": "https://github.com/gazaradmin/cypress-spreadsheet-reporter#readme",
+	"keywords": [
+		"cypress",
+		"spreadsheet",
+		"google drive",
+		"reporter"
+	]
+}

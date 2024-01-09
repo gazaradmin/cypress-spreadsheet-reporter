@@ -1,0 +1,10 @@
+.git
+cypress
+node_modules
+src
+.env
+.env_example
+.prettierrc.json
+cypress.config.js
+.gitlab-ci.yml
+spread_sheet_results.json

@@ -1,0 +1,15 @@
+stages:
+  - test
+
+default:
+  tags:
+    - docker
+    - test
+
+test:
+  image: cypress/browsers:node18.12.0-chrome106-ff106
+  stage: test
+  script:
+    # install dependencies
+    - npm install
+    - npm run cypress:run
