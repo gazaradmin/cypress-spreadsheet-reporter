@@ -5,6 +5,6 @@ src
 .env
 .env_example
 .prettierrc.json
-cypress.config.js
+cypress.config.ts
 .gitlab-ci.yml
 spread_sheet_results.json
