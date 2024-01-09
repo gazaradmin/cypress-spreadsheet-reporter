@@ -1,6 +1,6 @@
 {
 	"name": "cypress-spreadsheet-reporter",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Spreadsheet reporter for Cypress",
 	"main": "./dist/index.js",
 	"scripts": {
@@ -10,10 +10,10 @@
 		"test": "cypress run"
 	},
 	"dependencies": {
-		"dotenv": "^8.2.0",
 		"googleapis": "^129.0.0"
 	},
 	"devDependencies": {
+		"dotenv": "^8.2.0",
 		"@types/node": "^20.5.6",
 		"cypress": "^13.6.2",
 		"google-auth-library": "^9.4.1",
